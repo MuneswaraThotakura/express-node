@@ -1,0 +1,23 @@
+{
+    "name": "express-node",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "simple chat box",
+    "main": "server.js",
+    "scripts": {
+        "start": "NODE_ENV=development node server",
+        "dev": "nodemon server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongoose": "^6.3.4",
+        "socket.io": "^4.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
